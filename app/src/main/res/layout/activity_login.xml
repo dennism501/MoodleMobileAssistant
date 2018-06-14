@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.realator.dennism501.moodlemobileproject.Activites.Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/site_location"
+        android:gravity="center"
+        android:text="@string/site_url"
+        android:textSize="13sp"
+        android:layout_alignParentBottom="true"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logintextview"
+        android:hint="Ip address"
+        android:id="@+id/site_ip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_logo"
+            android:layout_gravity="center"
+            android:src="@drawable/moodle"/>
+
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:background="@drawable/logintextview"
+            android:layout_height="40dp"
+            android:hint="@string/username"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtloginusername"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:inputType="textPassword"
+            android:layout_margin="5dp"
+            android:layout_height="40dp"
+            android:id="@+id/txtloginpassword"
+            android:background="@drawable/logintextview"
+            android:hint="@string/password"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnlogin"
+            android:textColor="@android:color/white"
+            android:text="@string/login"
+            android:background="@color/login_button"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

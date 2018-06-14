@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MoodleMobileProject</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="title_activity_home">Moodle Mobile</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+    <string name="site_home">Site Home</string>
+    <string name="calender">Calender</string>
+    <string name="private_files">Private Files</string>
+    <string name="chat">Chat</string>
+    <string name="my_courses">My Contacts</string>
+    <string name="site_url">Site Location</string>
+    <string name="grade">Grade</string>
+    <string name="graded_on">Graded on</string>
+    <string name="graded_by">Graded by </string>
+    <string name="feedback_comments">Feedback comments</string>
+
+    <string name="FCM_KEY">AIzaSyDp8y8l9m0VIheXH0nKYYBHQJQHouB6Mb8</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

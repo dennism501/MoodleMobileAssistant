@@ -1,0 +1,144 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.realator.dennism501.moodlemobileproject.Fragments.Grade_fragment">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/tl"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        >
+        <!--
+            * TableLayout is a layout that arranges its children into rows and columns.
+            * A TableLayout consists of a number of TableRow objects, each defining a row.
+            * Each row has zero or more cells.
+            * Each cell can hold one View object.
+            * TableLayout containers do not display border lines for their rows, columns, or cells.
+            * The table has as many columns as the row with the most cells.
+            * A table can leave cells empty. Cells can span columns.
+            * The width of a column is defined by the row with the widest cell in that column.
+            * TableLayout can specify certain columns as shrinkable or stretchable
+              by calling setColumnShrinkable() or setColumnStretchable().
+            * In this example code we generate border for table and its columns, rows and cells.
+        -->
+        <TableRow
+            android:id="@+id/tr_header"
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <TextView
+                android:id="@+id/tv_product"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grade"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_bg"
+                android:paddingLeft="10dp"
+                android:text="70/100"
+                android:layout_weight="0"
+                android:paddingRight="10dp"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr_item_1"
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <TextView
+                android:id="@+id/tv_product_item_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/graded_on"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_author_item_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@drawable/table_cell_bg"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr_item_2"
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <TextView
+                android:id="@+id/tv_product_item_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/graded_by"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_author_item_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_bg"
+                android:paddingLeft="10dp"
+                android:text="Douglas Kunda(Phd)"
+                android:paddingRight="10dp"
+                android:layout_weight="0"
+                />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr_total"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/table_row_last_bg"
+
+            android:padding="5dp"
+            >
+            <!-- layout_span is table column span -->
+            <TextView
+                android:id="@+id/tv_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feedback_comments"
+                android:layout_gravity="right"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/feedback_comments"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_cell_bg"
+                android:paddingLeft="10dp"
+                android:text="This is good stuff"
+                android:layout_weight="0"
+                android:paddingRight="10dp"
+                />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

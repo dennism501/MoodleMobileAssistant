@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <group android:id="@+id/user_items"
+       android:checkableBehavior="single">
+
+       <item android:id="@+id/site_home"
+           android:title="@string/site_home"
+           android:icon="@drawable/ic_1491492014_go_home"
+           />
+       <item android:id="@+id/calender"
+           android:title="@string/calender"
+           android:icon="@drawable/ic_1491492064_calendar"
+
+           />
+       <item
+           android:id="@+id/my_files"
+           android:title="@string/private_files"
+           android:icon="@drawable/ic_1491492111_folder"
+           />
+       <item android:id="@+id/chat"
+           android:icon="@drawable/ic_1491492621_office_60"
+           android:title="@string/chat"
+           />
+
+   </group>
+
+    <group android:id="@+id/course_group"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/my_courses"
+            android:icon="@drawable/contacts"
+            android:title="@string/my_courses"
+            />
+    </group>
+</menu>

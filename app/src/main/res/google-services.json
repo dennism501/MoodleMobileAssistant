@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "456616080524",
+    "firebase_url": "https://moodlemobileproject.firebaseio.com",
+    "project_id": "moodlemobileproject",
+    "storage_bucket": "moodlemobileproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456616080524:android:3b14f45ef228ab82",
+        "android_client_info": {
+          "package_name": "com.realator.dennism501.moodlemobileproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456616080524-9qct442rpv3qn08maminkraj0tdrotgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realator.dennism501.moodlemobileproject",
+            "certificate_hash": "ed0f60a62adb3254fb595b1695d11a3a9b0601a7"
+          }
+        },
+        {
+          "client_id": "456616080524-elm08r9sp85m7u4ep0dots5c9etn1qtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0yGGvk5_irW5k89XsUMxXzxmunIakxmE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456616080524-elm08r9sp85m7u4ep0dots5c9etn1qtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
